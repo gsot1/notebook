@@ -1,0 +1,102 @@
+You already know most of the following, now define each one and put a *** on anything you got wrong or had to look up:
+
+Web browser - a program used to load HTML/CSS/JS pages downloaded from a server
+HTML - a language that defines the basic structure of a webpage
+High Level - a category of programming language that doesn't interact directly with computer components
+ECMA - the organization that manages the current implementation of JavaScript (or ECMAScript)
+WASM - the only other natively-supported web browser script format that's binary and still in development (WebAssembly)
+***Runtime - the time period where a computer is running and interacting with code, either client-side or server-side
+***Scripting language - a high-level programming language FOR EXISTING SYSTEMS that usually shows its runtime results quickly
+Browser Dev Tools - a built-in browser interface to inspect the files that are running the current webpage
+***Interpreted - a language interpretation method where the computer runs code one line at a time instead of compiled all at once
+V8 Engine - the main built-in engine in most web browsers (made by Google) to quickly compile JS into machine code
+***Just-In-Time Compilation - a software compiler that runs during the program's execution instead of before
+Script Tag - an HTML element or building block that defines a section to store/run JavaScript code
+Src Attribute - an HTML feature that allows you to point to the file location of any external assets (JS, CSS, etc)
+Console Log - a JS method/function that allows you to print text to a console
+Let - the default way to define a mutable variable in JS (var is outdated)
+CamelCase - a text format of writingVariableNamesInOneWordButMadeOfMultipleWordsSeparatedByCapitalLetters
+***Dynamically typed - a language feature where the compiler assumes your variable's type instead of you defining it (unlike TS)
+Primitive - a very basic data type that cannot be abstracted further (most languages have integers, strings, etc)
+Undefined - a variable state where its definition is missing or empty (similar to null)
+Null - a value or state of nothingness (can also be an empty string or 0)
+String - a collection of ASCII/Unicode characters surrounded by two quotation marks
+Object - an instance of a class, a collection of multiple primitives, functions/methods, or other objects
+Semicolons - a widely-recognized symbol for the end of a code line (optional in JS)
+Const - the default way to define an immutable variable in JS (should be always used when possible)
+Var - the outdated way to define a variable (because it's both mutable and ignores block scopes, making it easy to overwrite)
+***Lexical Environment - a set of concrete rules and definitions that determine the syntax of a language
+Global Scope - a permission space in a program's code where all values are accessible everywhere
+Function - a reusable set of instructions encapsulated into a single callable name and optional set of arguments
+Local Scope - a permission space where all values defined inside a function or class can't be accessed outside of it
+***Block Scope - a permission space where all values defined inside a loop or statement can't be accessed outside of it
+Hoisting - a method of making a variable accessible in the permission space above it (not a good idea)
+Function Definition - the written text that defines a function's names and actions
+***Arguments -  the input parameters of a function that are used to manipulate and/or return data
+Return - a common keyword in functions to exit its scope, usually with a value to bring back to its initial call
+Function Expression - an in-line function definition instead of a formal one (such as arrow functions)
+***Higher Order Functions - a function that is used as an argument or a return value
+***Closures - functions that contain data separate from the rest of the program
+Call stack - the specific order of function calls waiting to be used in short-term memory
+***Heap - a longer-term memory location for storing data between function calls
+This - a keyword that allows a function or class/object to refer to itself in a local scope
+Window or Global - the default global scope in JavaScript: the web browser window
+***Bind - a JS method that allows you to attach a function to an object, making that function a method as well
+Arrow Functions - a one-line function expression usually used as a variable definition (lacks "this" capability)
+Anonymous - a data structure without a name, such as array elements or arrow functions
+***Passed by Value - 
+***Passed by Reference - 
+Object Literal
+Object constructor
+Property
+Prototype Chain
+Inheritance
+OOP
+Classes
+Constructor
+Get/Set
+Instance Method
+Static Method
+Array
+Set
+Map
+Garbage Collection
+WeakMap & WeakSet
+Event Loop
+Synchronous
+Asynchronous
+Thread Pool
+Single Threaded
+SetTimeout
+Callback
+Callback hell
+Promise
+Resolve
+Reject
+Then/Catch
+Async
+Await
+Try/Catch
+ES Modules
+Default Import/Export
+Named Import/Export
+NPM
+NodeModules
+Package.json
+DOM
+Document
+QuerySelector
+Selector
+QuerySelectorAll
+Element
+Event
+Imperative
+Declarative
+Components
+Data Binding
+Module Bundling
+Network Waterfall
+Dynamic Imports
+Node.js
+Electron
+TypeScript

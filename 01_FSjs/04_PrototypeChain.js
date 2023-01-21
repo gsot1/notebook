@@ -42,4 +42,4 @@ console.log(Object.getPrototypeOf(Object.prototype) == null); // because the roo
 
 // Pop quiz: Which class does an Array inherit from?
 
-console.log(Object.getPrototypeOf(Array)); // (null? returns {} but there's no "null" option, "Primitive" wasn't right, makes sense actually since arrays HOLD one primitive, answer was "Object")
+console.log(Object.getPrototypeOf(Array)); // (null? returns {} but there's no "null" option, "Primitive" wasn't right, makes sense actually since arrays HOLD primitives, answer was "Object")

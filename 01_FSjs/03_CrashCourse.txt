@@ -44,59 +44,59 @@ Window or Global - the default global scope in JavaScript: the web browser windo
 ***Bind - a JS method that allows you to attach a function to an object, making that function a method as well
 Arrow Functions - a one-line function expression usually used as a variable definition (lacks "this" capability)
 Anonymous - a data structure without a name, such as array elements or arrow functions
-***Passed by Value - 
-***Passed by Reference - 
-Object Literal
-Object constructor
-Property
-Prototype Chain
-Inheritance
-OOP
-Classes
-Constructor
-Get/Set
-Instance Method
-Static Method
-Array
-Set
-Map
-Garbage Collection
-WeakMap & WeakSet
-Event Loop
-Synchronous
-Asynchronous
-Thread Pool
-Single Threaded
-SetTimeout
-Callback
-Callback hell
-Promise
-Resolve
-Reject
-Then/Catch
-Async
-Await
-Try/Catch
-ES Modules
-Default Import/Export
-Named Import/Export
-NPM
-NodeModules
-Package.json
-DOM
-Document
-QuerySelector
-Selector
-QuerySelectorAll
-Element
-Event
-Imperative
-Declarative
-Components
-Data Binding
-Module Bundling
-Network Waterfall
-Dynamic Imports
-Node.js
-Electron
-TypeScript
+***Passed by Value - an argument that takes in a copy of a data value for data manipulation (usually a primitive)
+***Passed by Reference - an argument that takes in the data value itself for data manipulation (usually an object)
+***Object Literal - a syntax that uses curly braces to directly define an object (without defining a class)
+***Object constructor - a JS function for defining a very basic object (using new Object())
+***Property - a value or keypair inside an object or class
+Prototype Chain - the path of inheritance an object is derived from (ending on its prototype/base class with a null value)
+Inheritance - the feature of copying another object's structure and building off it for a new sub-object or class
+Object-oriented programming - a programming language structure that revolves around defining classes/objects to re-use
+Classes - a definition of a base object/prototype with the "class" keyword (syntactic sugar JS-wise)
+Constructor - a function that is run at the beginning of the object's class creation (with constructor(name))
+Get/Set - JS keywords for creating getter/setter methods in classes (safer way of getting data values instead of object.data)
+***Instance Method - a class method that operates on an instance of an object
+***Static Method - a class method that operates globally on the class itself (instead of making an instance first)
+Array - a storage object that stores a one-dimensional collection of indexed (but unkeyed) items in consecutive memory []
+***Set - a data structure that stores a one-dimensional collection of UNIQUE indexed items WITHOUT consecutive memory {}
+***Map - a data structure object that stores a collection of items both indexed AND with primitive/object key names [,],
+Garbage Collection - a program process that clears the memory when data in it is no longer needed (automatic in JS)
+***WeakMap & WeakSet - maps and sets that aren't stored perpetually in memory, allowing for garbage collection to optimize
+Event Loop - a block of code that runs repeatedly, either for a set number of times or until a condition is met to exit
+Synchronous - a form of event loop that only runs events once the previous one(s) are completed
+Asynchronous - a form of event loop that runs events without waiting for previous ones to finish
+***Thread Pool - a storage area for asynchronous events to run
+Single Threaded - a type of program that only uses a single thread on a processor
+***SetTimeout - a JS function that does not run until a specified amount of milliseconds elapse
+***Callback - a function that does not run until another function is finished first
+***Callback hell - when a program nests way too many functions inside of each other that all need to finish to continue
+Promise - an asynchronous feature where code can continue since the other function can return a specific data type later
+***Resolve - when a function fulfills a return value it initially promised
+***Reject - an event where a promise is returned incorrectly, running a different set of code instead
+***Then/Catch - JS methods used to handle the return value of a promise (either to continue or to catch and handle errors)
+Async - a JS keyword used to define an asynchronous function (returns a promise so the rest of the code doesn't wait around)
+Await - an asynchronous JS keyword used to identify functions that should be waited on or treated synchronously
+Try/Catch - async JS keywords used to try an action expecting an error and to catch/handle specific errors that do happen
+***ES Modules - an ECMAScript feature that allows code to be shared between JS files
+***Default Import/Export - a JS syntax that exports functions from one file to another (export default)
+***Named Import/Export - a JS syntax that exports variables from one file to another (export)
+NPM - Node Package Manager, a repository of user-made ES modules to enhance/modify JS programs
+Node_Modules - the folder where npm downloads are stored for your use
+Package.json - a file that details the npm packages used by your JS program
+DOM - Document Object Model, a collective term for the structure created by HTML tags on a page
+Document - the term (and JS keyword) that refers to an entire HTML file's structure
+QuerySelector - a JS method (for window.document) that allows you to select an element by tag
+Selector - a tag name for an HTML or CSS element on a document
+QuerySelectorAll - a JS method (for window.document) that selects all elements of one tag, returning a list
+Element - the class of individual HTML/CSS items on a page
+Event - an action inside a web browser with a readable signal for JS functions to respond to (ex: keypress, click)
+***Imperative - a code practice in JS where the UI/webpage is modified directly
+***Declarative - a code practice in JS where the UI/webpage is one of many states in a function, indirectly modifying pages
+Components - a UI library concept that turns the DOM into a set of grouped HTML/CSS/JS components as a document structure
+***Data Binding - a UI library feature where components derive data directly from the JS into the HTML automatically
+***Module Bundling - the action of a module bundler condensing several JS assets into a condensed deployment structure
+Network Waterfall - a diagram inside a browser's devtools to measure and list the order of items that load from the server
+Dynamic Imports - a modern ECMAScript feature that allows for smaller JS chunks in a bundler by using in-line imports
+Node.js - a JavaScript runtime that helps run, test, and deploy your code immediately
+Electron - a JavaScript library that allows web apps to be deployed to desktop and mobile platforms with its own browser
+TypeScript - a Microsoft implementation of JS that introduces a compiler and  type-safe features (like strict type-checking)

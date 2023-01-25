@@ -53,9 +53,9 @@ function binarySearch(arr, val, start=0, end=arr.length) { // tip: you can defin
     }
 }
 
-console.log(searchAttempt(arrayEx, 6)); // (returns 2 but faster)
-console.log(searchAttempt(arrayEx, 18)); // (returns 5 but faster)
-console.log(searchAttempt(arrayEx, 51)); // (returns -1 but faster)
+console.log(binarySearch(arrayEx, 6)); // (returns 2 but faster)
+console.log(binarySearch(arrayEx, 18)); // (returns 5 but faster)
+console.log(binarySearch(arrayEx, 51)); // (returns undefined but faster)
 
 // Pop quiz: what is the time complexity of binary search?
 

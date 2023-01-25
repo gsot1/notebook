@@ -1,0 +1,44 @@
+What are RESTful APIs?
+
+APIs in general are request-response structures for two computers (a client and a server usually) to talk to each other
+
+Code is written to request data explicitly from a server, offered through its API
+
+REPRESENTATIONAL STATE TRANSFER is a set of rules for an API to be RESTful (so that it's easier for all programmers to interface with the API)
+- organizes data into various unique URLs (exampleapi.site/v2/object1, object2, object3...)
+- these trailing strings after the last / are called URIs (uniform resource identifiers) and everything before the last / is the NETWORK LOCATION
+- applications send HTTP REQUESTS to the API with a very specific format:
+--- [START LINE] VERB /URI (example: POST /dinosaur)
+------ GET: simply reading data
+------ POST: creating data
+------ PATCH: updating data
+------ DELETE: destroying data
+--- [HEADERS] metadata about the request
+------ Accept: application/json (specifies the file format for the returned data)
+------ Authorization: <token> (private API key to allow yourself access to the data)
+------ Connection: keep-alive
+--- [BODY] custom set of JSON data for a more specific request
+------ { "KEY": "VALUE", ... }
+
+The database reads the request and formats a response if it's accepted:
+--- [STATUS CODE] 200 OK
+------ 200s: data request was successful
+------ 400s: request was incorrect
+------ 500s: server isn't working
+--- [HEADERS] metadata about the server/response
+------ Server: nginx (what kind of server software?)
+------ Age: 2323 (either the age of the uptime or the data, unsure)
+------ Connection: keep-alive
+--- [BODY] the payload with the desired data
+------ { "id": "example123", "status": "success", ... }
+
+This request-response format is STATELESS, meaning:
+- no information needs to be stored about the computer on each end
+- every API request/response is independent from the rest of your code's communication features
+
+Pop quiz: How is a POST request different from a GET request?
+
+it accepts a body                <---------
+it parses JSON
+it includes headers 
+it is immutable

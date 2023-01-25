@@ -1,0 +1,10 @@
+It's time to build an example full-stack web application! Here's how to initialize our build setup:
+
+npm init vite@latest exampleApp
+
+package-name: exampleApp
+language: Vanilla JavaScript
+
+cd exampleApp
+npm i
+npm run dev

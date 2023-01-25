@@ -66,8 +66,8 @@ class LRU {
 }
   
 const LRUcache = new LRU(5);
-cache.putItem('a', 1);
-cache.getItem('a');
+LRUcache.putItem('a', 1);
+LRUcache.getItem('a');
 
 // Pop quiz: which features makes a JS Map suitable for an LRU cache?
 

@@ -1,0 +1,5 @@
+Lesson 20 involves the following:
+
+- Adding HTML to the `index` file with a basic web page structure and loading the script AFTER the elements
+- Using existing CSS (the course focuses on middleware and backend, not so much frontend styling)
+- The actual meat and potatoes of this course lesson happening in `main.js`

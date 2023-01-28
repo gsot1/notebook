@@ -1,0 +1,14 @@
+To test that your middleware works properly, using a REST CLIENT like Thunder Client helps you test your code
+
+Simply supply the URL to your current app and try different HTTP request types and URIs to make sure things work
+
+Thanks to my REST client, I was able to find a typo in my code (writing "apikey" instead of "apiKey") and now it works
+
+=======================================================================
+
+Pop quiz: Why are REST clients useful?
+
+easier to test requests
+better debugging
+workflow automation
+all of the above             <---------------

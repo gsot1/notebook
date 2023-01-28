@@ -2,12 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>exampleApp (port 8080)</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <main>
+      <h1>AI Photo Generator</h1>
+      <div id="result">
+        Image will appear here
+      </div>
+      <form>
+        <label for="prompt">Prompt</label>
+        <textarea name="prompt" maxlength="160"></textarea>
+        <button type="submit">Send to AI</button>
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script> <!-- load this AFTER our elements since we need them to exist first -->
   </body>
 </html>

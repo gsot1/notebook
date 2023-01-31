@@ -2,8 +2,7 @@ const file =  require('fs') // use the JS filesystem modules
 
 file.readFile('./input.txt', 'utf-8', (err, data) => { // use fs to read our data...
     
-    let housesX = [0]; // lets store all our hit houses in two arrays to make up a 2D structure
-    let housesY = [0]; // (0, 0) is the house Santa starts at (and already delivered to) 
+    let houses = [ [0,0] ]; // lets store all our hit houses in an array of arrays to make up our 2D data
     let locX = 0; // track our current position and house count
     let locY = 0;
     let answer = 1; // Santa already delivered at (0, 0)
@@ -14,41 +13,47 @@ file.readFile('./input.txt', 'utf-8', (err, data) => { // use fs to read our dat
         else if (data[i] === '^') { locY += 1; }
         else if (data[i] === 'v') { locY -= 1; }
 
-        if (binarySearch(housesX, locX) === -1) { // check if the x value even exists in the array
-            housesX.push(locX); // PROBLEM: what about multiple instances of locX?
-            housesY.push(locY);
-            answer++;
-        } else if (houses[locX] !== locY) { // check if the y value is in the x's array
-            houses[locX].push(locY); // PROBLEM: how do you get the index of the locX to check if its locY pair already exists?
-            answer++;
-        }
+        let currIndex = getXs(houses).findIndex((e) => e === locX); // look for the first instance of X
 
-        // SOLUTION? binarySearch all instances of locX and check for locY somehow
+        if (currIndex === undefined) { // check if the x value even exists in the array
+            houses.push([locX,locY]);
+            answer++;
+        } else { // check if the y value exists in all instances of X
+
+            let notFound = true;
+            let offset = 0;
+
+            while (offset <= houses.length) { // look for Y in every instance of X until found OR we run out of array to look through
+                if (houses[currIndex+offset][1] === locY) { // found it
+                    notFound = false;
+                    offset = houses.length;
+                } else { // haven't found it
+                    offset += currIndex;
+                    let newHouses = houses.slice(currIndex+1); // BUG: how to check for next X and exit the while loop??
+                    currIndex = getXs(newHouses).findIndex((e) => e === locX);
+                }
+            }
+
+            if (notFound) { // if there's an existing X but not a Y to go with it
+                houses.push([locX,locY]);
+                answer++;
+            }
+        }
     }
 
     console.log(answer); // here's our final answer ()
 
 });
 
-// Good thing I have this function from my JS course I took:
+// I will also need this custom function
 
-function binarySearch(arr, val, start=0, end=arr.length) {
-     
-    if (start > end) { // return -1 if we go through the whole thing and find nothing (this function loops by calling itself)
-        return -1;
+function getXs(arr) { // this grabs every X value in the houses array
+
+    let slicedArr = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        slicedArr.push(arr[i][0])
     }
 
-    const mid = Math.floor((start + end) / 2); // grab rounded middle index
-
-    if (arr[mid] === val) { // OUTCOME 1: we found the value!
-        return mid; // we're done!
-    }
-
-    if (arr[mid] > val) { // OUTCOME 2: we overshot
-        return binarySearch(arr, val, start, mid-1); // call the function again (callback) and check every value below the mid index
-    }
-
-    if (arr[mid] < val) { // OUTCOME 3: we undershot
-        return binarySearch(arr, val, mid+1, end); // call the function again (callback) and check every value above the mid index
-    }
-}
+    return slicedArr;
+ }

@@ -1,12 +1,13 @@
 # Notebook
-The fruits of my daily code practice. Let's see if I can make it to 365 (non-consecutive) days.
+The fruits of my coding practice. Let's see if I can make it to 365 (non-consecutive) days.
 
 ### Contents:
 - Notes from courses I'm taking *(usually about JavaScript or React-related topics)*
-- Practice problems from [Advent of Code](https://adventofcode.com/) *(more practical/interesting than Leetcode)*
+- Practice problems from [Advent of Code](https://adventofcode.com/) *(in preparation for Leetcode)*
 - Any logged progress on personal projects
 
 ### Log:
+- D011 - 2023/02/13 - Advent of Code 2022 Archive: [Day 02](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D02)
 - D010 - 2023/02/07 - Advent of Code 2022 Archive: [Day 01](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D01)
 - D009 - 2023/01/29 - Advent of Code 2015 Archive: [Day 02](https://github.com/gsot1/notebook/blob/main/02_Advent/2015D02)
 - D008 - 2023/01/28 - Advent of Code 2015 Archive: [Day 01](https://github.com/gsot1/notebook/blob/main/02_Advent/2015D01)

@@ -10,6 +10,8 @@ The input string will only consist of lower case letters and/or spaces.
 
 */
 
+// MY VERSION
+
 function getCount(str) {
     let count = 0;
     for (let i = 0; i < str.length; i++) {
@@ -20,3 +22,9 @@ function getCount(str) {
     }
     return count;
   }
+
+// BEST VERSION
+
+function getCountBEST(str) {
+  return (str.match(/[aeiou]/ig)||[]).length; // grab all vowels and make an array out of them and return the length (how does the regexp work? idk)
+}

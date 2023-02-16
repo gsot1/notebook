@@ -8,7 +8,7 @@ The fruits of my coding practice. Let's see if I can make it to 365 (non-consecu
 - *ROADMAP: React Docs Beta, The Odin Project, Algorithm Interview Practice?*
 
 ### Log:
-- D013 - 2023/02/15 - Codewars: [Vowel Count](https://github.com/gsot1/notebook/blob/main/03_Codewars/00001.js)
+- D013 - 2023/02/15 - Codewars: [Vowel Count](https://github.com/gsot1/notebook/blob/main/03_Codewars/CW0001.js)
 - D012 - 2023/02/14 - Advent of Code 2022 Archive: [Day 03](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D03)
 - D011 - 2023/02/13 - Advent of Code 2022 Archive: [Day 02](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D02)
 - D010 - 2023/02/07 - Advent of Code 2022 Archive: [Day 01](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D01)

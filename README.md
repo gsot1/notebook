@@ -5,9 +5,10 @@ The fruits of my coding practice. Let's see if I can make it to 365 (non-consecu
 - Notes from courses I'm taking *(includes: Fireship Modern JS Full Course)*
 - Some practice problems *(includes: Advent of Code)*
 - Any logged progress on personal projects
-- *COMING SOON: The Odin Project, React.js Beta Docs, Leetcode?*
+- *ROADMAP: Codewars, React Docs Beta, The Odin Project, Algo. Interview Practice?*
 
 ### Log:
+- D013 - 2023/02/16 - *(coming soon. Advent of Code is unfortunately too advanced for me)*
 - D012 - 2023/02/14 - Advent of Code 2022 Archive: [Day 03](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D03)
 - D011 - 2023/02/13 - Advent of Code 2022 Archive: [Day 02](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D02)
 - D010 - 2023/02/07 - Advent of Code 2022 Archive: [Day 01](https://github.com/gsot1/notebook/blob/main/02_Advent/2022D01)

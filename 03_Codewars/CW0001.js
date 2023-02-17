@@ -23,8 +23,12 @@ function getCount(str) {
     return count;
   }
 
-// BEST VERSION
+// BEST VERSIONS
 
 function getCountBEST(str) {
   return (str.match(/[aeiou]/ig)||[]).length; // grab all vowels and make an array out of them and return the length (how does the regexp work? idk)
+}
+
+function getCountBEST_READABLE(str) {
+  return str.split('').filter(c => "aeiouAEIOU".includes(c)).length; // split string into characters and create an array from an anonymous test function checking for vowels
 }

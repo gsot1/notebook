@@ -1,0 +1,15 @@
+Name at least one thing your question should always include:
+
+- A code snippet that reliably and accurately reproduces your problem (WITHOUT typos)
+
+
+Describe the “XY Problem”:
+
+- If you're having trouble trying to solve X, ask about X instead of convincing yourself Y is the solution and asking about that instead
+
+
+Describe three attributes of a “help vampire”:
+
+- Preys on the generosity of unpaid helpers
+- Likes the idea of building things more than the actual process of doing/troubleshooting/learning it
+- Asks excessive, frequent, or impossible questions

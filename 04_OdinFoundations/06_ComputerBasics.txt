@@ -1,0 +1,18 @@
+Is Windows an operating system or an application?
+
+- Operating system
+
+What’s the difference between open source and closed source software?
+
+- Open source software has code that's published publicly while closed source software has a confidential or private codebase
+
+What are some use cases of a screenshot?
+
+- Sharing viewpoints for troubleshooting issues
+- Sharing your work so far on a project
+- Documenting images of a finished project
+
+Give an example of a weak and a strong password.
+
+- `hello`
+- `SOIDF&SD*O&FBSDIYFSDfhDGIu`

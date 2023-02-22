@@ -1,0 +1,59 @@
+What is a web server?
+
+- An internet-connected computer that hosts a website(s) or other web service(s)
+
+What is a network?
+
+- A collection of computers connected by a router
+
+What is the internet?
+
+- The internet is the literal hardware that connects between computers/servers around the world via fiber optic cable
+
+What is an IP address?
+
+- A dedicated identifier for computers to receive/deliver data to other specific computers (both global IPs and local IPs)
+
+What is a router?
+
+- A device that centralizes web traffic from various computers and routes them to their other destination computers
+
+What is an ISP?
+
+- Internet Service Provider (receives data from modems and forwards them to other ISPs so they get to their destinations)
+
+What are packets and how are they used to transfer data?
+
+- Packets are smaller pieces of your requested data that take different paths to arrive at your computer (where they get assembled into the full thing)
+
+What is a client?
+
+- A computer that requests data from a server, usually over the internet
+
+What is a server?
+
+- A computer that sends back its hosted data to the client whenever it receives its requests
+
+What is a web page?
+
+- A web browser document served to your computer by a web server, usually displaying the information hosted by a domain you entered
+
+What is a web browser?
+
+- An application that allows you to search for websites and load their pages onto your screen
+
+What is a search engine?
+
+- A web service that helps you find other websites, usually organized by relevancy to your search term
+
+What is a DNS request?
+
+- A Domain Name Service request is when a client asks a DNS server what IP address matches an entered domain name
+
+Which browser are you currently using?
+
+- Firefox & Brave
+
+In your own words, explain what happens when you run a search on google.com.
+
+- The search query gets sent through a DNS server and on to Google's servers, where an indexed list of matching search results (organized by previous site crawlers) gets sent back to your client computer the same way it came

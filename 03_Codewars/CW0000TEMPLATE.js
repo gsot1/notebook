@@ -10,5 +10,5 @@
 
 
 
-// BEST READABLE VERSION
+// BEST READABLE VERSION (no regex)
 

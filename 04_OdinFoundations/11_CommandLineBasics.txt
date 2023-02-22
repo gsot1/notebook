@@ -1,0 +1,51 @@
+mkdir test 
+cd test 
+touch test.txt 
+cd ..
+rm -rf test
+
+-------------------
+
+What is the command line?
+
+- An interface that takes in text-based commands and returns text-based output
+
+How do you open the command line on your computer?
+
+- Ctrl + Alt + T
+
+How can you navigate to a particular directory?
+
+- cd
+
+Where will cd on its own navigate you to?
+
+- ~
+
+Where will cd .. navigate you to?
+
+- the folder above
+
+How do you display the name of the directory you are currently in?
+
+- pwd
+
+How do you display the contents of the directory you are currently in?
+
+- ls
+
+How do you create a new directory?
+
+- mkdir
+
+How do you create a new file?
+
+- touch
+
+How do you destroy a directory or file?
+
+- rm
+
+How do you rename a directory or file?
+
+- mv oldname newname

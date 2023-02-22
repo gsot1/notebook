@@ -1,4 +1,4 @@
-// Jaden Casing Strings by 
+// Jaden Casing Strings by jacobb
 
 /*
 

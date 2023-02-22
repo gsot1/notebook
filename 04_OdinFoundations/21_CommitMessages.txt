@@ -1,0 +1,18 @@
+What are two benefits of having well-written commit messages and a good commit history?
+
+- Stand out to prospective employers
+- Have full context for each commit's decision
+
+How many characters should the subject line of your commit message be?
+
+- 50
+
+BONUS: What are the seven tips for writing commit messages?
+
+- 1. Use the feature where you can add a description to your one-line commit messsage
+- 2. Don't go above 50 characters in your one-liner (subject)
+- 3. Capitalize the first letter
+- 4. But don't add punctuation at the end 
+- 5. Write in present-tense imperative mood ("Clean this folder" or "Fix that bug")
+- 6. Make sure your description's lines are 72 characters each
+- 7. The description should explain what and why, not how

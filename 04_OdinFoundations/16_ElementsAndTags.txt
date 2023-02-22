@@ -1,0 +1,7 @@
+What is an HTML tag?
+
+- A marker that wraps around content denoting how the browser should display it
+
+What are the three parts of an HTML element?
+
+- Opening tag, content, closing tag

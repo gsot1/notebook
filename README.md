@@ -8,6 +8,7 @@ The fruits of my coding practice. Let's see if I can make it to 365 (non-consecu
 - Maybe some algorithm interview practice at some point?
 
 ### Log:
+- D022 - 2023/02/27 - Odin Foundations: Flexbox (Lesson [30](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/30_Alignment.md))
 - D021 - 2023/02/26 - Odin Foundations: Flexbox (Lessons [27](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/27_IntroductionToFlexbox.md), [28](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/28_GrowingAndShrinking.md), [29](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/29_Axes.md))
 - D020 - 2023/02/25 - Codewars JS: [Valid Parentheses](https://github.com/gsot1/notebook/blob/main/03_Codewars/CW0011.js)
 - D019 - 2023/02/24 - Odin Foundations: CSS Foundations (Lessons [24](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/24_InspectingHTMLAndCSS.md), [25](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/25_TheBoxModel.md), [26](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/26_BlockAndInline.md))

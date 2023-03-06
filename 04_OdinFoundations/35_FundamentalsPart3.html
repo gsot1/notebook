@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(open the JS console)</title>
+</head>
+<body>
+    <h1>(open the JS console)</h1>
+    <script>
+        // 1
+        console.log(add7(3));
+        // 2
+        console.log(multiply(4));
+        // 3
+        console.log(capitalize('pONCHO'));
+        // 4
+        console.log(lastLetter('Poncho'));
+
+        function add7 (num = 0) { return num + 7; }
+        function multiply (n1 = 1, n2 = 2) { return n1 * n2; }
+        // Shoutout to Codewars for preparing me for this moment:
+        function capitalize (str = "none") { return str.slice(0,1).toUpperCase() + str.slice(1); }
+        function lastLetter (str = "none") { return str.slice(-1); }
+    </script>
+</body>
+</html>

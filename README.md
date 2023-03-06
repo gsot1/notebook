@@ -2,12 +2,13 @@
 The fruits of my coding practice. Let's see if I can make it to 365 (non-consecutive) days.
 
 ### Contents:
-- Notes from courses I'm taking *(includes: The Odin Project, Fireship Modern JS Full Course)*
-- Some practice problems *(includes: Codewars, Advent of Code)*
+- Notes from courses I'm taking *(includes: [The Odin Project](https://www.theodinproject.com/paths), [Fireship Modern JS Full Course](https://fireship.io/courses/js/))*
+- Some practice problems *(includes: [Codewars](https://www.codewars.com/), [Advent of Code](https://adventofcode.com/))*
 - Any logged progress on personal projects
 - Maybe some algorithm interview practice at some point?
 
 ### Log:
+- D025 - 2023/03/05 - Odin Foundations: JavaScript (Lessons [33](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/33_FundamentalsPart2.md), [34](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/34_JavaScriptDeveloperTools.md), [35](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/35_FundamentalsPart3.html), [36](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/36_ProblemSolving.md), [37](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/37_UnderstandingErrors.html))
 - D024 - 2023/03/01 - Odin Foundations: JavaScript (Lesson [32](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/32_FundamentalsPart1.html))
 - D023 - 2023/02/28 - Odin Foundations: Flexbox (Lesson [31P](https://github.com/gsot1/odin-landing-page))
 - D022 - 2023/02/27 - Odin Foundations: Flexbox (Lesson [30](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/30_Alignment.md))

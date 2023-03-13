@@ -8,8 +8,9 @@ The fruits of my coding practice. Let's see if I can make it to 365 (non-consecu
 - Maybe some algorithm interview practice at some point?
 
 ### Log:
+- D028 - 2023/03/12 - Odin Foundations: JavaScript (Lessons [42](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/42_DOMManipulationAndEvents.html), [43](https://github.com/gsot1/odin-rock-paper-scissors/tree/rps-ui))
 - D027 - 2023/03/07 - Odin Foundations: JavaScript (Lesson [41](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/41_FundamentalsPart4.md))
-- D026 - 2023/03/06 - Odin Foundations: JavaScript (Lessons [38P](https://github.com/gsot1/odin-rock-paper-scissors), [39](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/39_CleanCode.md), 40)
+- D026 - 2023/03/06 - Odin Foundations: JavaScript (Lessons [38P](https://github.com/gsot1/odin-rock-paper-scissors/tree/initial), [39](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/39_CleanCode.md), 40)
 - D025 - 2023/03/05 - Odin Foundations: JavaScript (Lessons [33](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/33_FundamentalsPart2.md), [34](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/34_JavaScriptDeveloperTools.md), [35](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/35_FundamentalsPart3.html), [36](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/36_ProblemSolving.md), [37](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/37_UnderstandingErrors.html))
 - D024 - 2023/03/01 - Odin Foundations: JavaScript (Lesson [32](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/32_FundamentalsPart1.html))
 - D023 - 2023/02/28 - Odin Foundations: Flexbox (Lesson [31P](https://github.com/gsot1/odin-landing-page))

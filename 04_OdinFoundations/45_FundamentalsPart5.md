@@ -12,7 +12,7 @@
 
 - `.filter()` - run a testing function on every array item, true/false result either keeps or removes the item 
 - `.map()` - run a modifying function on every array item, returns a new array of the same length
-- `.sort()` - run a sorting function on every two array items at a time, true/false swaps or keeps each item pair's order 
+- `.sort()` - run a comparing function on every two array items at a time, true/false swaps or keeps each item pair's order 
 - `.reduce()` - run a modifying function on every array item, returns a single new item computed from all the array items
 - `.some()` - run a testing function on every array item, stops and returns true if one item evaluates to true
 - `.every()` - run a testing function on every array item, returns true if all pass and false if one or more fails

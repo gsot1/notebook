@@ -1,13 +1,12 @@
 # Notebook
-The fruits of my coding practice. Let's see if I can make it to 365 (non-consecutive) days.
+The fruits of my coding practice. It was a fun 30 days!
 
 ### Contents:
-- Notes from courses I'm taking *(includes: [The Odin Project](https://www.theodinproject.com/paths), [Fireship Modern JS Full Course](https://fireship.io/courses/js/))*
+- Notes from courses I'm taking *(includes: [The Odin Project (JS)](https://www.theodinproject.com/paths), [Fireship Modern JS Full Course](https://fireship.io/courses/js/))*
 - Some practice problems *(includes: [Codewars](https://www.codewars.com/), [Advent of Code](https://adventofcode.com/))*
-- Any logged progress on personal projects
-- Maybe some algorithm interview practice at some point?
 
 ### Log:
+- D030 - 2023/03/17 - Odin Foundations: JavaScript (Lessons [46P](https://github.com/gsot1/odin-calculator), [47](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/47_IntroductionToTheBackEnd.md), [48](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/48_IntroductionToFrameworks.md), 49)
 - D029 - 2023/03/13 - Odin Foundations: JavaScript (Lessons [44P](https://github.com/gsot1/odin-etch-a-sketch), [45](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/45_FundamentalsPart5.md))
 - D028 - 2023/03/12 - Odin Foundations: JavaScript (Lessons [42](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/42/42_DOMManipulationAndEvents.html), [43](https://github.com/gsot1/odin-rock-paper-scissors/tree/rps-ui))
 - D027 - 2023/03/07 - Odin Foundations: JavaScript (Lesson [41](https://github.com/gsot1/notebook/blob/main/04_OdinFoundations/41_FundamentalsPart4.md))
